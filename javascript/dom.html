@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form>
+		<input type="text" id="textId" name="textName" class="textClass">
+		<input type="text" id="txtId" name="txtName" class="txtClass">
+		<button type="button" name="button" onclick="buttonClick()">Submit</button>
+
+	</form>
+
+</body>
+</html>
+<script type="text/javascript">
+	function buttonClick(){
+		/*var value=document.getElementById("textId").value;
+		alert(value);
+
+		var value2=document.getElementById("txtId").value;
+		alert(value2);
+
+        var value3=document.getElementsByName("textName");
+        alert("get length by name:"+value3.length);
+        for(var i=0;i<value3.length;i++){
+        	alert("get value by name:"+value3[i].value);
+        }*/
+
+        	var value4=document.getElementsByTagName("input");
+        	alert("get length tagname:"+value4.length);
+        	for(var i=0;i<value4.length;i++){
+        		alert("get value by tagname:"+value4[i].value);
+        	}
+
+	}
+</script>

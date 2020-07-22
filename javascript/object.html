@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		/*student={
+			id:566,
+			name:"sahitha",
+			branch:"cse"
+		}
+		document.write(student.id+" "+student.name+" "+student.branch);
+
+		var student=new Object();
+		student.id=567;
+		student.name="sreya";
+		student.branch="mech";
+		document.write(student.id+" "+student.name+" "+student.branch);*/
+
+		function student(id,name,branch){
+			this.id=id;
+			this.name=name;
+            this.branch=branch;
+		}
+
+		s=new student(566,"sahitha","cse");
+        document.write(s.id+" "+s.name+" "+s.branch);
+        
+	</script>
+
+</body>
+</html>
