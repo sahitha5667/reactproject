@@ -5,5 +5,42 @@
 		"email":"sahithajayam1@gmail.com",
 		"number":"+91-1234567890",
 		"address":"nellore"
-	}
+	},
+	"careerobjective":{
+		"info":"To become a software developer"
+	},
+	"educationqualification":[
+		{
+			"institute":"Gates Institute Of Technology",
+			"degree":"B.Tech",
+			"passedoutyear":"2021",
+			"percentage":"71%"
+		},
+		{
+		    "institute":"Sri Sai Junior College",
+			"degree":"Intermediate",
+			"passedoutyear":"2017",
+			"percentage":"88%"
+		},
+		{
+			"institute":"Sri Sai High School",
+			"degree":"SSC",
+			"passedoutyear":"2015",
+			"percentage":"93%"
+		}
+	],
+	"technicalskills":[
+		{
+			"title":"programming languages",
+			"info":["C,Java,Python,Html and Css"]
+			},
+			{
+				"title":"Databases",
+				"info":["Oracle","Sql","Mysql"]
+			},
+			{
+				"title":"Operating system",
+				"info":["Windows","Unix","linux"]
+			}
+	]
 }
